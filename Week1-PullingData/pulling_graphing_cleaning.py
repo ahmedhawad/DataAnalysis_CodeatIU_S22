@@ -11,7 +11,7 @@ I will go through examples for each as a code along, then I will give you a data
 
 Steps:
 
-1. Complete this survey:
+1. Complete this survey: https://forms.gle/kSVgnrEqubVARVPt7
 
 
 2. Download 
@@ -37,7 +37,7 @@ Steps:
 
     a) Graph a point map of everyone's favorite restaurant
         -Title of restaurant as title 
-        -Include the food type when you hover 
+        -Include the food type when you hover (look at plotly docs to find how to do this)
         -Include recommender's name when you hover
         -Make it a dark map
 
@@ -45,6 +45,7 @@ Steps:
         -Clean the data to put it in your desired format
             -Feel free to use your own way or the method I used 
         -Add the person's name as the title
+        -Include peron's funny oneliner when you hover
         -Make it an outdoors map
 
 """
