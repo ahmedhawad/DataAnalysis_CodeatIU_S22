@@ -33,20 +33,6 @@ Steps:
     - Ask questions!!!!!!
 
 
-4. Work on the survey data solo or in groups
-
-    a) Graph a point map of everyone's favorite restaurant
-        -Title of restaurant as title 
-        -Include the food type when you hover (look at plotly docs to find how to do this)
-        -Include recommender's name when you hover
-        -Make it a dark map
-
-    b) Graph everyone's hometown location as a line map connected to bloomington
-        -Clean the data to put it in your desired format
-            -Feel free to use your own way or the method I used 
-        -Add the person's name as the title
-        -Include peron's funny oneliner when you hover
-        -Make it an outdoors map
 
 """
 
