@@ -53,7 +53,7 @@ def points():
     Graphing the points in bloomington location csv
     """
 
-    bloom_loc = pd.read_csv("Week1-PullingData/Bloomington_Location.csv")
+    bloom_loc = pd.read_csv("PullingData_Cleaning_Graphing/Bloomington_Location.csv")
 
     fig  = px.scatter_mapbox(bloom_loc, lat = "lat", lon = "lon",
 
@@ -87,7 +87,7 @@ def line():
 
 
 def cleaned_vacation():
-    file =  pd.read_csv("Week1-PullingData/Vacation.csv")
+    file =  pd.read_csv("PullingData_Cleaning_Graphing/cleanedVacation.csv")
 
 
     thelist = []
@@ -100,7 +100,7 @@ def cleaned_vacation():
         thelist.append([ file.iloc[i]["name"], file.iloc[i]["hlat"],file.iloc[i]["hlon"]   ])
         thelist.append([ file.iloc[i]["name"], file.iloc[i]["blat"],file.iloc[i]["blon"]   ])
 
-    folder_path = "Week1-PullingData/"
+    folder_path = "PullingData_Cleaning_Graphing/"
     ldf = pd.DataFrame(thelist)
 
     # ldf.to_csv( "Week1-PullingData/cleanedVacation")
@@ -109,7 +109,7 @@ def cleaned_vacation():
     
 def vacation():
 
-    file = pd.read_csv("Week1-PullingData/cleanedVacation.csv")
+    file = pd.read_csv("PullingData_Cleaning_Graphing/cleanedVacation.csv")
 
     hometown = file.query(f"name in { [x for x in file.name ]}")
 
