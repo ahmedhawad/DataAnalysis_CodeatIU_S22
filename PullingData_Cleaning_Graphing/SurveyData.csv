@@ -1,10 +1,10 @@
 Name,One_Liner,Fav_Restaurant,RLatitude,RLongitude,City,CLatitude,CLongitude,RestaurantType
-Jeremy ,,Social Cantina,39.1677886,-86.53498958,Centereach,40.8584,73.0996,Mexican
-Peter Heile,I'm cool,Jimmy Johns,39.1538° N,86.4973° W,"Milan, Indiana",39.1212,85.1313,Sandwhich
-Ashley Ziegler,,Da Vinci,39.1647° N,86.5325° W,Vernon Hills,42.2393,87.9654,Italian
+Jeremy ,,Social Cantina,39.1677886,-86.53498958,Centereach,40.8584,-73.0996,Mexican
+Peter Heile,I'm cool,Jimmy Johns,39.1538,-86.4973,"Milan, Indiana",39.1212,-85.1313,Sandwhich
+Ashley Ziegler,,Da Vinci,39.1647,-86.5325,Vernon Hills,42.2393,-87.9654,Italian
 Ryan,I like video games,Buffalouies ,39.16604599,-86.52702594,Bloomington,39.18552044,-86.52506666,wings
 Christian Powell ,I dont have any one liners :(,Smokeworks ,39.16735,-86.53503,Menlo Park ,37.45232,-122.18397,BBQ
 Zack Seliger,Your answer,Stir Fry 88,39.16106284,-86.49569354,Dyer,41.49365772,-87.50211594,Chinese
-Aung Win,,Sakura,39.1567° N,86.4970° W,Fort Wayne,41.0793,85.1394,Asian
+Aung Win,,Sakura,39.1567,-86.4970,Fort Wayne,41.0793,-85.1394,Asian
 Sotaro Kaneda,Currently having vim issues,Da Vinci,39.16702406,-86.52914514,Columbus,39.21236862,-85.92630618,Italian
 Nela Riddle,among us,Culver's,39.16459,-86.55987,Columbus,39.201401,-85.921028,white people
