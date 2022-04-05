@@ -103,30 +103,40 @@ Insert INTO Internship Values
 
 ;
 
-
-
+;
 -- Show me everythign from student table
 
 
 
+;
 -- Tell me all students names and their salary for everyone whose hourly salary is over 18
-;
 
 
 
 ;
--- join the tables and do the same thing (note the differences)
+-- join the tables and do the same thing in 3 different way
 
 
 
+;
+--Tell me all student ids for students who have an internship
+
+
+
+;
+--Tell me all student ids for students who DO NOT have an internship
+
+
+
+;
 --Find the ids the 2 people with the same salary
-;
+
+
 
 
 ;
+-- Tell me their names using WITH
 
--- Tell me their names using WITH  (Think of a way to remove duplicates)
 
-;
 
-;
+
