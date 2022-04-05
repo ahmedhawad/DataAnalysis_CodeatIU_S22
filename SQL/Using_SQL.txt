@@ -1,0 +1,32 @@
+
+
+
+1. Download postgres:
+    https://www.postgresql.org/download/
+
+
+
+2. In VSCode, download this sql extensison:
+    Name: MySQL
+    Id: cweijan.vscode-mysql-client2
+    Publisher: cweijan
+    VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2
+
+
+
+3. Connect your VSCode extension to your Postgres database:
+    Switch to Postgres tab
+
+
+    hostname: localhost
+
+
+    root/username:  postgres
+
+    password:  
+    (by default no password)
+
+    port: 5432
+    (by default)
+
+
