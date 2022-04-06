@@ -1,9 +1,12 @@
 
 
 
+from numpy import intp
+
+
 Student = [
 
-  {"sid": 1000 , "sname": "Margaret", "hometown": "Carmel"},
+  {"sid": 1000 , "sname": "Margaret", "hwometown": "Carmel"},
   {"sid": 1002 , "sname": "James", "hometown": "NYC"},
   {"sid": 1003 , "sname": "Zack", "hometown": "LA"},
   {"sid": 1004 , "sname": "Candice", "hometown": "Chicago"},
@@ -86,10 +89,33 @@ Queries in SQL are a lot like list comprehensions in Python
 #1. for loop:
 print(1)
 
+templist = []
+
+for x in range(5):
+  templist.append(x)
+
+print(templist)
+
+otherlist = []
+#double loop
+for a in range(3):
+  for b in ["x","y","z"]:
+    otherlist.append((a,b))
+
+print(otherlist)
+
 
 
 #2. list comp:
 print(2)
+
+
+
+print([x for x in range(5)])
+
+print( [ (a,b) for a in range(3) for b in ["x","y","z"] 
+
+])
 
 
 ######### Queries #########
@@ -101,9 +127,28 @@ print(3)
 
 
 
+print([x for x in Student])
+
+
+
+
 #4. Tell me the Person's name whp's sid is 1010
 print(4)
+
+print([s["sname"] for s in Student if s["sid"] == 1010])
+
+
 
 
 # 5. Tell me the person's name who's salary is >= 18
 print(5)
+
+
+print([ s["sname"] for i in Internship for s in Student if s["sid"] == i["sid"] and i["hourlySalary"] >= 18
+
+
+
+])
+
+
+#########

@@ -10,7 +10,7 @@ PRIMARY KEY(sid)
 ;
 
 
-Create table Company(
+Create table Company (
 
 cid int,
 company text,
@@ -107,36 +107,84 @@ Insert INTO Internship Values
 -- Show me everythign from student table
 
 
-
+select * from student
 ;
+
+
 -- Tell me all students names and their salary for everyone whose hourly salary is over 18
 
+select s.sname,i.hourlysalary 
+from student s, internship i
+where  s.sid = i.sid AND
+      i.hourlysalary>18
 
 
 ;
--- join the tables and do the same thing in 3 different way
+-- join the tables and do the same thing in 3 different ways
+
+-- Way 1
+select sname, hourlysalary 
+from student natural join internship
+where  hourlysalary>18
+
+--Way 2
+select  sname, hourlysalary
+from student  join internship  using (sid)
+where hourlySalary >18
+
+
+-- Way 3
+select  sname, hourlysalary
+from student  join internship  on (student.sid = internship.sid)
+where hourlySalary >18
 
 
 
 ;
 --Tell me all student ids for students who have an internship
 
-
+select i.sid
+from internship i
 
 ;
 --Tell me all student ids for students who DO NOT have an internship
 
+select s.sid
+from student s
+where s.sid
+ not in 
+ (select i.sid
+from internship i
+)
 
 
 ;
 --Find the ids the 2 people with the same salary
 
 
+select  i1.sid as i1, i2.sid as i2
+from internship i1, internship i2
+where i1.sid != i2.sid AND  
+      i1.hourlysalary = i2.hourlysalary
+    
 
 
 ;
 -- Tell me their names using WITH
 
 
+
+WITH samesalary as (select  i1.sid as i1, i2.sid as i2
+from internship i1, internship i2
+where i1.sid != i2.sid AND  
+      i1.hourlysalary = i2.hourlysalary
+    
+)
+
+
+select s1.sname, s2.sname
+from Student s1, Student s2, samesalary ss
+where s1.sid = ss.i1 and s2.sid = ss.i2 and
+s1.sid > s2.sid
 
 
