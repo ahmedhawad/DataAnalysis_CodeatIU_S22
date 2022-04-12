@@ -1,0 +1,26 @@
+
+
+
+
+You can choose to show any coding project you worked on, through personal work, class work, homework, work form Code@IU:
+
+
+
+- AI Sudoko solver (https://www.youtube.com/watch?v=G_UYXzGuqvM)
+
+
+- Graphing Airbnb Data:
+    -There is a csv in (ML/project_datasets/W04-April-19-21-Air-BnB-Chicago 2.csv)Airbnb host data 
+
+    -Graph it in a meanigufl way, your choice.
+
+
+- Ask meaningful queries from the SQL dataset used last week
+    -See what insight you can extract from the sql database
+    -If you want to practice new functions in sql, try using count() and groupby()
+
+
+- Use sklearn to segment customers/users for your company:
+    -Choose a type of clustering algorithm (https://scikit-learn.org/stable/_images/sphx_glr_plot_cluster_comparison_001.png)
+    -Use the dataset to clustert them. I have an example dataset for credit card users or you can use your own dataset.
+
