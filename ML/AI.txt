@@ -1,0 +1,11 @@
+I will go over 2 main things to help you practially build AI algorithms.
+
+There are many many things to cover, I will cover a 
+small subscetion of 2 very import skills:
+
+    -Recursion
+        -Once you get the hang of it, it'll be one of the most  
+        powerful tools you will have as a programmer
+        
+    -Using ML libraries
+        -These are simple to use but difficult to master
